@@ -148,7 +148,7 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
     background-color: #ececec;
 
 }
-/*Основні стилі для сайту*/
+/*пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ*/
 #wraper{
     float: left;
     width: 100%;
@@ -221,7 +221,7 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
 }
 #wraper #articles article a:hover{background-color: #53eca1;}
 
-/*Стилі для сторінки про нас*/
+/*пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ*/
 #about{
     width: 100%;
     float: contour;
@@ -244,7 +244,7 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
     padding: 1%;
 }
 
-/*Стилі для форми*/
+/*пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ*/
 form{
     width: 60%;
     margin-left: 20%;
@@ -298,7 +298,7 @@ form #send{
 }
 form #send:hover{background-color: orange;}
 
-/*Стилі для центрального блоку*/
+/*пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ*/
 #main_block{
     width: 100%;
     padding: 2% 0;
@@ -306,7 +306,7 @@ form #send:hover{background-color: orange;}
     border-bottom: 2px solid silver;
     margin: 20px 0;
     float: left;
-    background: url("../img/background.jpeg") repeat-x center;
+    background: url("../img/main/background.jpeg") repeat-x center;
     height: 40px;
 }
 #main_block_in{
@@ -319,7 +319,7 @@ form #send:hover{background-color: orange;}
 #main_block_in p{
     margin-top: 8px;
 }
-/*Стилі для футера*/
+/*пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ*/
 footer{
     padding: 1%;
     border-top: 2px solid silver;
