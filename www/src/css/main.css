@@ -72,6 +72,7 @@ header, footer{
 header{
     border-bottom: 2px solid silver;
     padding: 1%;
+
 }
 
 #logo{
@@ -105,6 +106,15 @@ header{
 
 }
 
+.phone{
+    font-size: 1.5em;
+    font-family: Comic Sans MS, sans-serif;
+    margin-right: 5px;
+    float: right;
+    padding: 10px;
+    color: #f58b8b;
+}
+
 
 input[type=text].field {
     border-radius: 5px;
@@ -119,6 +129,7 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
     color: #666666;
     font-family: "Comic Sans MS", sans-serif;
     font-size: 1.7em;
+
 }
 #menu hr{
     width: 500px;
@@ -137,7 +148,7 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
     background-color: #ececec;
 
 }
-/*РћСЃРЅРѕРІРЅС– СЃС‚РёР»С– РґР»СЏ СЃР°Р№С‚Сѓ*/
+/*Основні стилі для сайту*/
 #wraper{
     float: left;
     width: 100%;
@@ -151,14 +162,27 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
 }
 #wraper #articles article{
     float: left;
-    width: 19%;
     border: 1px solid silver;
     box-sizing: border-box;
     border-radius: 5px;
     background-color: #fafafa;
-    margin-right: 1%;
-    min-height: 400px;
+
 }
+
+@media (min-width: 700px){
+#wraper #articles article{
+
+    width: 19%;
+    margin-right: 1%;
+
+}}
+
+@media (max-width: 699px){
+    #wraper #articles article{
+        width: 96%;
+        margin-right: 1%;
+    }}
+
 
 #wraper #articles article img{
     width: 100%;
@@ -197,29 +221,84 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
 }
 #wraper #articles article a:hover{background-color: #53eca1;}
 
-/*РЎС‚РёР»С– РґР»СЏ СЃС‚РѕСЂС–РЅРєРё РїСЂРѕ РЅР°СЃ*/
+/*Стилі для сторінки про нас*/
 #about{
-    width: 60%;
-    float: left;
+    width: 100%;
+    float: contour;
     background-color: #fafafa;
-    border-radius: 5px;
-    border: 1px solid silver;
+    border-radius: 30px;
+    border: 10px solid silver;
     box-sizing: border-box;
-    padding: 1%;
-
+    padding: 8%;
+    font-family: "Comic Sans MS", sans-serif;
 }
+
 #columRight{
     width: 30%;
     float: right;
     margin-left: 5%;
     background-color: #fafafa;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid silver;
     box-sizing: border-box;
     padding: 1%;
 }
 
-/*РЎС‚РёР»С– РґР»СЏ С†РµРЅС‚СЂР°Р»СЊРЅРѕРіРѕ Р±Р»РѕРєСѓ*/
+/*Стилі для форми*/
+form{
+    width: 60%;
+    margin-left: 20%;
+    float: left;
+}
+
+form label{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1em;
+}
+
+form input {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    float: left;
+    clear: both;
+    width: 40%;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+
+}
+
+form input:focus, form textarea:focus{ border: 2px solid #f58b8b;}
+
+form textarea {
+    width: 60%;
+    float: left;
+    clear: both;
+    background-color: #fafafa;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 1.7em;
+
+}
+
+form #send{
+    float: left;
+    padding: 10px;
+    background-color: #f48b8b;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+
+}
+form #send:hover{background-color: orange;}
+
+/*Стилі для центрального блоку*/
 #main_block{
     width: 100%;
     padding: 2% 0;
@@ -240,7 +319,7 @@ input[type=text].field:focus { border: 2px solid #f58b8b;}
 #main_block_in p{
     margin-top: 8px;
 }
-/*РЎС‚РёР»С– РґР»СЏ С„СѓС‚РµСЂР°*/
+/*Стилі для футера*/
 footer{
     padding: 1%;
     border-top: 2px solid silver;
